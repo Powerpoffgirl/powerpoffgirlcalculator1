@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Inter&family=Poppins:wght@300&display=swap');
+
+.app {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  width: 85vw;
+  height:85vh;
+  font-weight: 400;
+  padding-top: 15vh;
+  padding-left: 15vw;
+}
+
+h1{
+  padding-top: 1vh;
+  padding-bottom:1vh;
+  font-size: xx-large;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  width: 13vw;
+  justify-content: space-between; 
+  height: 23vh;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+input{
+  background-color:#1E1E1E;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  height: 4vh;
+  padding-left: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.buttonContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+button{
+  background-color:#FFFFFF;
+  color: #1E1E1E;
+  width: 3vw;
+  height:6vh;
+}
+
+.result{
+  margin-top:4vh;
+  margin-bottom: 4vh;
+}
